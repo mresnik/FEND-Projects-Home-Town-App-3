@@ -21,10 +21,13 @@ body {
 @media screen and (max-width: 450px) {
   .header__title {
     margin-left: 0;
-    font-size: 1.5em;
+    font-size: 1em;
     vertical-align: bottom;
   }
+  .snippet__thumbnail {
+        display: none;
   }
+}
 @media screen and (max-width: 549px) {
   .header__logo {
     height: 48px;
@@ -65,12 +68,6 @@ body {
   .header__menu svg {
     width: 32px;
     fill: #E0E0E0;
-  }
-}
-
-@media screen and (max-width: 450px) {
-    .snippet__thumbnail {
-        display: none;
   }
 }
 
