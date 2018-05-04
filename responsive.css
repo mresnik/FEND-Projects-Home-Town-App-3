@@ -21,7 +21,7 @@ body {
 @media screen and (max-width: 450px) {
   .header__title {
     margin-left: 0;
-    font-size: 1em;
+    font-size: .5em;
     vertical-align: bottom;
   }
   .snippet__thumbnail {
