@@ -21,7 +21,7 @@ body {
 @media screen and (max-width: 450px) {
   .header__title {
     margin-left: 0;
-    font-size: 1.5em;
+    font-size: .9em;
     vertical-align: bottom;
   }
 @media screen and (max-width: 549px) {
