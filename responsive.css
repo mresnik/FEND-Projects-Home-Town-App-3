@@ -45,7 +45,7 @@ body {
       }
       .header__title {
         margin-left: 0;
-        font-size: 2em;
+        font-size: 2.5em;
         vertical-align: bottom;
       }
       .nav {
@@ -98,7 +98,7 @@ body {
 @media screen and (max-width: 675px) {
   .header__title {
     margin-left: 0;
-    font-size: 2em;
+    font-size: 3em;
     vertical-align: bottom;
   }
 }
