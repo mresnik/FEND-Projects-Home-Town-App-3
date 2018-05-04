@@ -18,10 +18,10 @@ body {
   order: 10;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 0px) and (max-width: 450px) {
   .header__title {
     margin-left: 0;
-    font-size: 0.5em;
+    font-size: 1em;
     vertical-align: bottom;
   }
   .snippet__thumbnail {
