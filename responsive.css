@@ -18,13 +18,13 @@ body {
   order: 10;
 }
 
-@media screen and (min-width: 0px) and (max-width: 450px) {
+@media screen and (max-width: 400px) {
   .header__title {
     margin-left: 0;
-    font-size: 2em;
+    font-size: 1em;
     vertical-align: bottom;
   }
-  .snippet__thumbnail {
+    .snippet__thumbnail {
     display: none;
     }
 }
@@ -38,15 +38,19 @@ body {
       }
     }
 
-    @media screen and (max-width: 549px) {
+@media screen and (min-width: 401px) and (max-width: 549px) {
+    .header__title {
+      margin-left: 0;
+      font-size: 2em;
+      vertical-align: bottom;
+    }
+  }
+
+
+@media screen and (max-width: 549px) {
       .header__logo {
         height: 48px;
         margin-right: 0.5em;
-      }
-      .header__title {
-        margin-left: 0;
-        font-size: 2.5em;
-        vertical-align: bottom;
       }
       .nav {
         z-index: 10;
@@ -95,7 +99,7 @@ body {
   }
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (min-width: 550px) and (max-width: 675px) {
   .header__title {
     margin-left: 0;
     font-size: 3em;
